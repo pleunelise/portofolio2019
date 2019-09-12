@@ -1,3 +1,10 @@
 body{
-  background-color: blue;
+  background-color: lightblue;
+}
+img {
+  border-radius: 18px;
+}
+img:hover {
+  padding: 1px;
+  border-radius: 8px;
 }
