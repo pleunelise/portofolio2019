@@ -1,25 +1,33 @@
-body{
-  background-color: lightblue;
+body {
+  background-color: #FCC0E4;
 }
+
 img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 18px;
-
 }
+
+h1 {
+  font-size: 200px;
+  text-align: center;
+}
+
 ul {
+  border-radius: 9px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
 
 li {
   float: left;
+  font-style: italic;
+
 }
 
 li a {
@@ -31,9 +39,19 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #F593CE;
 }
 
 .active {
-  background-color: lightblue;
+  background-color: #F593CE;
+}
+table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
